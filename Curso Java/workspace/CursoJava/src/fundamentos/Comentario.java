@@ -31,4 +31,3 @@ public class Comentario {
 		System.out.println("Programa");
 	}
 }
-ddd
