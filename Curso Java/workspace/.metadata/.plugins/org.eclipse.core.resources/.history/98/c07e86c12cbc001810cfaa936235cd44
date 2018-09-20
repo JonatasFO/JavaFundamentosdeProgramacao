@@ -1,9 +1,9 @@
 package fundamentos;
 
 public class OperadoresRelacionais {
-
+	
 	public static void main(String[] args) {
-		// Operadores: == != >= > <= <
+		//Operadores: == != >= > <= <
 		int num1 = 97;
 		int num2 = 'a';
 		System.out.println(num1 == num2);
@@ -12,5 +12,8 @@ public class OperadoresRelacionais {
 		System.out.println(3 > 7);
 		System.out.println(3 <= 3);
 		System.out.println(1 < 4);
+		
+		//
 	}
+
 }
