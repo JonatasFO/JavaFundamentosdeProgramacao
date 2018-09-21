@@ -1,0 +1,18 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio3 {
+	
+	public static void main(String[] args) {
+		
+		
+		String altura = JOptionPane.showInputDialog("Digite sua altura: ");
+		
+		double alt = Double.parseDouble(altura);
+		
+		System.out.println("Altura é: ", altura);
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package fundamentos;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio3 {
+	
+	public static void main(String[] args) {
+		
+		
+		String altura = JOptionPane.showInputDialog("Digite sua altura: ");
+		String peso = JOptionPane.showInputDialog("Digite seu peso: ");
+		
+		double alt = Double.parseDouble(altura);
+		double pes = Double.parseDouble(peso);
+		
+		double imc = altura / (peso * peso);
+		
+		System.out.println("Seu IMC é: " + imc);
+		
+	}
+
+}

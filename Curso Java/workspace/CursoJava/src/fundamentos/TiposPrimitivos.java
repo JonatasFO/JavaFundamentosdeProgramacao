@@ -37,7 +37,7 @@ public class TiposPrimitivos {
 		//tipos primiticos reais (ponto flutuante)
 		float f = 3.1416f;
 		double d = 2.45;
-		System.out.printf("%.2f %.1f ", f, d);
+		System.out.printf("%.2f %.1f " , f, d);
 	}
 
 }
